@@ -73,7 +73,29 @@ This repository provides two example:
 
 1. **Non-linear binary classification**: A simple example demonstrating how to train a neural network for binary classification using synthetic data (two ellipse shapes).
 
+    **Results**: The model should be able to classify the two ellipse shapes with high accuracy. This example is very useful for understanding how neural networks can learn non-linear decision boundaries.
+
+    <p>
+        <center>
+        <img src="./assets/example-boundary.png" alt>
+        </center>
+    </p>
+    <p>
+        <center><em>Train steps: 200'000, cost:  0.025386388515388828</em></center>
+    </p>
+
 2. **MNIST classification**: A more complex example demonstrating how to train a neural network for classifying handwritten digits from the MNIST dataset.
+
+    **Results**: The model should be able to achieve a reasonable accuracy on the MNIST dataset. This example is particularly useful as it shows how to implement early stopping using a validation set.
+
+    <p>
+        <center>
+        <img src="./assets/example-mnist.png" alt>
+        </center>
+    </p>
+    <p>
+        <center><em>Epochs: 175/200, model prediction: 8</em></center> 
+    </p>
 
 ### Key Features in Development
 
