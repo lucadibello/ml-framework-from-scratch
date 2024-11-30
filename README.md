@@ -108,7 +108,15 @@ This repository provides two example:
 Clone this repository and ensure you have Python 3.6 or later installed. No additional libraries are required except for basic dependencies like `numpy`.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/lucadibello/ml-framework-from-scratch.git
 cd neural-network-framework
-pip install -r requirements.txt  # Optional, if any external libraries are used
 ```
+
+Now we need to load the environment. We can do this using either `conda` or `pip`. The `environment.yml` file contains the necessary dependencies for the project.
+
+```bash
+conda create -n ml -f environment.yml
+conda activate ml
+```
+
+You are now ready to use the framework! Feel free to explore the examples provided (Jupyter notebooks) and experiment with different network architectures.
